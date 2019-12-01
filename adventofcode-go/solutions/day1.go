@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "github.com/adokarasev/adventofcode2019/adventofcode-go/utils"
 
 func main() {
 	input, _ := utils.ReadInts("../input/day1.txt")
