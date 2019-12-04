@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "github.com/adokarasev/adventofcode2019/adventofcode-go/utils"
 
-func main() {
+func day1() {
 	input, _ := utils.ReadInts("../input/day1.txt")
 	fmt.Printf("1. Total fuel: %v\n", sum(input, calculateFuel))
 	fmt.Printf("2. Total fuel: %v\n", sum(input, calculateRequiredFuel))
